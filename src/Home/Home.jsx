@@ -37,8 +37,8 @@ const Home = () => {
                 </div>
                 </div>
             <div className="col-md-3">
-                <div className="">
-                  <p className="text-white text-center  mt-2"> <img src={truck} alt="" /><span className='ms-1 ps-2'>FREE DELIVERY ON ORDERS OVER $40.00</span></p>
+            <div className="">
+                    <p className="text-white text-center  mt-2 "> <img src={truck} alt="" /> <span className='ms-1'></span>FREE DELIVERY ON ORDERS OVER $40.00</p>
                 </div>
                 </div>
             <div className="col-md-3">
@@ -272,7 +272,7 @@ const Home = () => {
                             </div>
                         <div className="col-5  border-end p-0 hd ">
                             <div className="">
-                            <div className='fs-6'><i class="bi bi-lock me-2"></i> <span className='nb'>Secure 256-Bit SSL Encryption.</span></div>
+                            <div className='fs-6'><i class="bi bi-lock "></i> <span className='nb'>Secure 256-Bit SSL Encryption.</span></div>
                             </div>
                         </div>
                      
