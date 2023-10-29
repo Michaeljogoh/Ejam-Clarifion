@@ -1,0 +1,72 @@
+
+.dot {
+    height: 27px;
+    width: 27px;
+    border-radius: 50%;
+    display: inline-block;
+  }
+ 
+#carouselExampleControls{
+display: none;
+}
+
+.show-image4{
+    display: none;
+    }
+
+@media only screen and (max-width: 729px) {
+    .dasHol{
+        display: none;
+    }
+
+
+    .checkout-rm{
+        display: none;
+    }
+
+    #Top{
+        display: none;
+    }
+    #carouselExampleControls{
+        display: block;
+    }
+
+    .image4{
+        display: none;
+    }
+    .show-image4{
+    display: block;
+    }
+
+.bt{
+    display: none;
+}
+
+.hd{
+  position: relative;
+  left: 0;
+  margin-left: 150px;
+  margin-top: 5px;
+}
+
+.lin{
+    height: 0.2px;
+    background-color: black;
+}
+
+.lo{
+    margin-top: 5px;
+ }
+
+ .gh{
+    margin-left: 140px;
+ }
+ .dot{
+    margin-top: 9px;
+ }
+
+
+
+  }
+
+
