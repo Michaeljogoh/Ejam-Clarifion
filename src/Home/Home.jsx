@@ -38,7 +38,7 @@ const Home = () => {
                 </div>
             <div className="col-md-3">
             <div className="">
-                    <p className="text-white text-center  mt-2 "> <img src={truck} alt="" /> <span className='ms-1'></span>FREE DELIVERY ON ORDERS OVER $40.00</p>
+                    <p className="text-white text-center  mt-2 "> <img src={truck} alt="" /> <span className='ms-1'></span>FREE DELIVERY ON ORDERS $40.00</p>
                 </div>
                 </div>
             <div className="col-md-3">
