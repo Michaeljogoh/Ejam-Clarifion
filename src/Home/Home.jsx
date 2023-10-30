@@ -263,22 +263,22 @@ const Home = () => {
                   <button className='btn btn-success btn-lg rounded-pill px-3' style={{backgroundColor:"#59AE43"}}>YES-CLAIM MY DISCOUNT<i class="bi bi-arrow-right-short ms-3 fs-4"></i></button>
                   </div>
                    {/*  */}
-                   <div className="container border border-2 rounded mb-2">
-                    <div className="row align-items-md-center">
-                        <div className="col-3 pt-3">
-                            <div className="border-end">
-                             <p className=''>Free Shipping</p>
-                            </div>
-                            </div>
-                        <div className="col-5  border-end p-0 hd ">
-                            <div className="">
-                            <div className='fs-6'><i class="bi bi-lock "></i> <span className='nb'>Secure 256-Bit SSL Encryption.</span></div>
-                            </div>
-                        </div>
-                     
-                        <div className="col-md-4 pt-3">
-                        <div className='lin'></div>
-                            <div className="lo">
+<div class="container  border border-2 rounded mb-2">
+      <div class="row">
+  <div class="col-lg-3 col-6 pt-2">
+          <div className="border-end ">
+                <p className='text-dark'>Free Shipping</p>
+            </div>
+        </div>
+   <div class="col-lg-5 col-6 pt-2">
+    <div className="border-end">
+        
+   <span className='nb text-dark fs-'>Secure 256-Bit  Encryption.</span>
+    </div>
+        </div>
+<div class="col-lg-4 col-md-12 pt-3">
+        
+          <div className="lo">
                              <ul className='list-unstyled d-flex gh'>
                                 <li><div className="card "><img src={Visa} className='img-fluid' alt="" /></div></li>
                                 <li><div className="card ms-1"><img src={shopPay} className='img-fluid' alt="" /></div></li>
@@ -289,9 +289,14 @@ const Home = () => {
                                 <li><div className="card ms-1"><img src={amex} className='img-fluid' alt="" /></div></li>
                              </ul>
                                 </div>
-                            </div> 
-                    </div>
-                   </div>
+        </div>
+
+
+
+</div>
+</div>
+
+
                    {/* d */}
                    <div className="container mt-3">
                     <h5 className='text-underline text-center text-danger' style={{textDecoration:"underline"}}>NO THANKS, I DON'T WANT THIS.</h5>
